@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*header start*/
+header{
+  background-color: solid white;
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.nav {
+    width: 60%;
+    float: right;
+}
+.nav ul{
+    float: right;
+} 
+.nav ul li{
+    float: left;
+    list-style: none;
+}
+.nav ul li a{
+    padding: 24px 50px;
+    display: block;
+    color: #7eb8dd;
+    transition: .5s;
+    font-family: Century Gothic;
+    font-weight: bold;
+}
+.nav ul li:last-child a{
+    padding-right: 30px;
+}
+.nav ul li a:hover{
+    color: #0076BC;  
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+    background-image: url(../CSS/banner.jpg); 
+    background-repeat: no-repeat;
+    min-height: 800px;
+    background-size: cover;
+    background-position: center;
+    font-family: Century Gothic;
+}
+.banner_content {
+    width: 20%;
+    margin-top: 250px;
+    background-color: rgb(206,208,220,.6);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.banner_content h2{
+    font-size: 40px;
+    color: #646D5C;
+}
+.banner_content p{
+    font-size: 20px;
+    color: #2C2D31;  
+}
+.banner_content button{
+    font-size: 15px;
+    font-family: Century Gothic;
+    font-weight: bold;
+    color: #3CB2F2;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #574839;
+    opacity: .7;
+}
+/*banner end*/
+/*service start*/
+.service{
+    background-color: white;
+}
+.wrapper_two{
+    width: 75%;
+    border: 1px solid red;
+    overflow: hidden;
+    margin: 0 auto;
+    border: none;
+}
+.single{
+    float: left;
+    width: 30%;
+    padding: 0px 23px;
+    border-right: 1px solid blue;
+    border: none;
+}
+.single_service{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.service_part1{
+}
+.service_part1_header{
+}
+.service_part1_header h1{
+    font-family: Century Gothic;
+    font-size: 30px;
+    color: #646D5C;
+    padding-bottom: 5px;
+}
+.service_part1_content{
+}
+.service_part1_content p{
+    padding-top: 20px;
+    font-size: 16px;
+    color: #2C2D31;
+    font-family: Century Gothic;
+    padding-bottom: 40px;
+}
+.service_part1_content button{
+    font-size: 15px;
+    font-family: Century Gothic;
+    font-weight: bold;
+    color: #3CB2F2;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #574839;
+    opacity: .7;
+}
+/*service end*/
+.contact{
+    background-color: white;
+}
+.wrapper_three{
+    width: 60%;
+    text-align: center;
+    border: 1px solid red;
+    border: none;
+    margin: 0 auto;
+}
+.contact_us_content p{
+    font-size: 15px;
+    font-family: Candara;
+    color: #26273B;
+    padding-bottom: 18px;
+}
+.socail_media{
+    padding-bottom: 30px;
+}
+/*service end*/
